@@ -22,4 +22,5 @@ Chrome extension for removing Globe's injected fake toolbar.
 
 If the extension is valid, it'll be loaded up and active right away! If it's invalid, an error message will be displayed at the top of the page. Correct the error, and try again. (source:https://developer.chrome.com/extensions/getstarted)
 
-6. Report bugs by sending me an issue on github. 
+
+Report bugs by sending me an issue on github. 
