@@ -1,0 +1,30 @@
+{
+	"name": "remove-fake-toolbar",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "Fuckingly remove fucking Globe's fucking fake toolbar.",
+	"homepage_url": "http://www.github.com/volkovasystems/remove-fake-toolbar",
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"default_locale": "en",
+	"background": {
+		"scripts": [
+			"src/bg/background.js"
+		],
+		"persistent": true
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": [
+				"js/jquery/jquery.js",
+				"src/inject/inject.js"
+			]
+		}
+	]
+}
